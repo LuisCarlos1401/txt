@@ -1,0 +1,47 @@
+#/root
+  ├── /requisitos                  # Artefatos relacionados aos requisitos do projeto
+  │     ├── requisitos_funcionais.md
+  │     ├── requisitos_nao_funcionais.md
+  │     ├── documento_de_revisao.md
+  │     └── plano_de_validacao.md
+  │
+  ├── /codigo-fonte                # Código-fonte do projeto
+  │     ├── /src                    # Código-fonte principal
+  │     │     ├── /modulo_a
+  │     │     ├── /modulo_b
+  │     │     └── /modulo_c
+  │     ├── /testes_unitarios       # Testes automatizados para o código
+  │     │     ├── test_modulo_a.py
+  │     │     ├── test_modulo_b.py
+  │     │     └── test_modulo_c.py
+  │     └── /scripts                # Scripts de configuração ou automação
+  │
+  ├── /documentacao                # Documentos explicativos do projeto
+  │     ├── manual_do_usuario.md
+  │     ├── guia_de_instalacao.md
+  │     ├── arquitetura_do_sistema.md
+  │     └── glossario.md
+  │
+  ├── /design                      # Artefatos de design e arquitetura do sistema
+  │     ├── diagrama_arquitetura.png
+  │     ├── diagrama_de_classes.png
+  │     └── fluxograma_processos.png
+  │
+  ├── /casos_de_teste              # Casos de teste para validação do sistema
+  │     ├── caso_de_teste_1.md
+  │     ├── caso_de_teste_2.md
+  │     └── caso_de_teste_3.md
+  │
+  ├── /releases                    # Versões de releases do projeto
+  │     ├── release_v1.0.md
+  │     ├── release_v1.1.md
+  │     └── release_v2.0.md
+  │
+  ├── /logs                        # Logs de auditoria e registros do repositório
+  │     ├── log_auditoria.md
+  │     └── registros_de_mudancas.md
+  │
+  └── /configuracao                # Arquivos de configuração do projeto
+        ├── config.json
+        ├── dockerfile
+        └── .gitignore
